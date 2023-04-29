@@ -1,0 +1,56 @@
+.nav {
+  width: 100%;
+  padding: 20px;
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px 2px #000;
+}
+
+.menu {
+  flex-basis: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu svg {
+  font-size: 2rem;
+  color: var(--indigo);
+  cursor: pointer;
+}
+
+.menu span {
+  display: flex;
+  align-items: center;
+}
+
+.menu span svg {
+  font-size: 1.7rem;
+  color: var(--gray);
+  font-weight: lighter;
+  margin-right: 10px;
+}
+
+.menu span input {
+  border: none;
+  /* padding: 10px; */
+}
+
+.menu span input:focus {
+  outline: none;
+  font-size: 1rem;
+}
+
+.action {
+  flex-basis: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.action svg {
+  font-size: 1.5rem;
+  color: #464a53;
+}

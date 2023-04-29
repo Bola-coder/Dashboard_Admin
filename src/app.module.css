@@ -1,0 +1,18 @@
+.app {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.sidenav {
+  flex: 1;
+  position: fixed;
+  width: 20%;
+}
+
+.content {
+  flex: 4;
+  position: absolute;
+  top: 0;
+  left: 20%;
+}
