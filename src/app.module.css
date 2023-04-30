@@ -15,4 +15,6 @@
   position: absolute;
   top: 0;
   left: 20%;
+  width: 80%;
+  max-width: 80%;
 }
